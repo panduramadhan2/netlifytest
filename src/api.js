@@ -12,7 +12,28 @@ router.get("/", (req, res) => {
 
 router.post("/test", (req, res) => {
   res.json({
-    hello: "test!",
+    accountAlias: "RICKY SUKONO",
+    accountIndex: 0,
+    accountLinking: null,
+    accountNumber: "0351002972",
+    accountOwnerName: "RICKY SUKONO",
+    accountStatus: 1,
+    accountType: "1",
+    additionalData: null,
+    balance: 7777777777,
+    cardNumber: null,
+    cardStatus: null,
+    currency: "IDR",
+    isDof: true,
+    isPrimary: false,
+    isSof: true,
+    isVisible: null,
+    ordering: null,
+    productCode: "T11",
+    productName: "TABUNGAN - VIP SAFE (P)",
+    productType: "1",
+    securitiesAccountDto: null,
+    userProfileId: null,
   });
 });
 
