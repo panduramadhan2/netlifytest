@@ -30,7 +30,7 @@ router.post("/test", (req, res) => {
     isVisible: null,
     ordering: null,
     productCode: "T11",
-    productName: "TABUNGAN - VIP SAFE (P)",
+    productName: "TABUNGAN ENA MAJU JAYA JAYA JAYA",
     productType: "1",
     securitiesAccountDto: null,
     userProfileId: null,
