@@ -12,11 +12,11 @@ router.get("/", (req, res) => {
 
 router.post("/test", (req, res) => {
   res.json({
-    accountAlias: "RICKY SUKONO",
+    accountAlias: "Lionel Messi",
     accountIndex: 0,
     accountLinking: null,
     accountNumber: "0351002972",
-    accountOwnerName: "RICKY SUKONO",
+    accountOwnerName: "Lionel Messi",
     accountStatus: 1,
     accountType: "1",
     additionalData: null,
