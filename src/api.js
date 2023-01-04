@@ -12,28 +12,17 @@ router.get("/", (req, res) => {
 
 router.post("/test", (req, res) => {
   res.json({
-    accountAlias: "Lionel Messi",
-    accountIndex: 0,
-    accountLinking: null,
-    accountNumber: "0351002972",
-    accountOwnerName: "Lionel Messi",
-    accountStatus: 1,
-    accountType: "1",
-    additionalData: null,
+    id: "Lionel Messi",
+    name: 0,
+    username: null,
+    password: "0351002972",
+    phone: "Lionel Messi",
+    email: 1,
+    rek: "1",
+    dob: null,
     balance: 7777777777,
-    cardNumber: null,
-    cardStatus: null,
-    currency: "IDR",
-    isDof: true,
-    isPrimary: false,
-    isSof: true,
-    isVisible: null,
-    ordering: null,
-    productCode: "T11",
-    productName: "TABUNGAN ENA MAJU JAYA JAYA JAYA",
-    productType: "1",
-    securitiesAccountDto: null,
-    userProfileId: null,
+    bank: null,
+    roles: [{ id: 1, name: "ROLE_USER" }],
   });
 });
 
