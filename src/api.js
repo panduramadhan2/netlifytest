@@ -12,16 +12,16 @@ router.get("/", (req, res) => {
 
 router.post("/test", (req, res) => {
   res.json({
-    id: "Lionel Messi",
-    name: 0,
-    username: null,
-    password: "0351002972",
+    id: 3,
+    name: "Lionel Messi",
+    username: "Lionel",
+    password: "7777777",
     phone: "Lionel Messi",
-    email: 1,
+    email: "jhon@mail.com",
     rek: "1",
-    dob: null,
+    dob: "2000-04-29",
     balance: 7777777777,
-    bank: null,
+    bank: "bri",
     roles: [{ id: 1, name: "ROLE_USER" }],
   });
 });
