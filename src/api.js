@@ -26,6 +26,29 @@ router.post("/test", (req, res) => {
   });
 });
 
+router.post("/transaksi", (req, res) => {
+  res.json(
+    {
+      id: 1,
+      action: "TopUp Wallet",
+      tujuan: "OVO - 0882 4824 5362",
+      amount: 1400000,
+    },
+    {
+      id: 2,
+      action: "TopUp Wallet",
+      tujuan: "OVO - 0882 4824 5361",
+      amount: 1400000,
+    },
+    {
+      id: 3,
+      action: "TopUp Wallet",
+      tujuan: "OVO - 0882 4824 5364",
+      amount: 1400000,
+    }
+  );
+});
+
 app.use("/.netlify/functions/api", router);
 
 module.exports = app;
