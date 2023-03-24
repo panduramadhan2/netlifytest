@@ -16,7 +16,7 @@ router.post("/test", (req, res) => {
     name: "Lionel Messi",
     username: "Lionel",
     password: "7777777",
-    phone: "Lionel Messi",
+    phone: 08129292920099,
     email: "jhon@mail.com",
     rek: "1",
     dob: "2000-04-29",
