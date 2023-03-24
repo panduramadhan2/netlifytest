@@ -21,7 +21,7 @@ router.post("/test", (req, res) => {
     rek: "1",
     dob: "2000-04-29",
     balance: 7777777777,
-    bank: "bri",
+    bank: "bri -56517617235612",
     accountNumber: 123412341234,
     roles: [{ id: 1, name: "ROLE_USER" }],
   });
